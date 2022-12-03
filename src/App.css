@@ -1,1 +1,26 @@
 
+body{
+    box-sizing: border-box;
+}
+
+.user_container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 450px;
+    background-color: whitesmoke;
+    justify-content: space-around;
+}
+
+.createUser_container{
+    display: flex;
+    align-items: center;
+}
+
+.input_container{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    gap: 10px;
+    margin: 24px;
+}
